@@ -1,4 +1,5 @@
 streamlit
-openai
-python-dotenv
-requests
+pandas
+extra-streamlit-components
+streamlit-option-menu
+openpyxl
