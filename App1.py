@@ -4,10 +4,10 @@ import sys
 
 # FORCE INSTALL: If the library is missing, install it right now
  try:
-     import extra_streamlit_components
+  import extra_streamlit_components
  except ImportError:
-     subprocess.check_call([sys.executable, "-m", "pip", "install", "extra-streamlit-components"])
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "streamlit-option-menu"])
+  subprocess.check_call([sys.executable, "-m", "pip", "install", "extra-streamlit-components"])
+  subprocess.check_call([sys.executable, "-m", "pip", "install", "streamlit-option-menu"])
 
 # ... Now continue with your normal imports ...
 import streamlit as st
